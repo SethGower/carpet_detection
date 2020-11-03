@@ -1,0 +1,276 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Amplifier_Operational:TLC277 U2
+U 1 1 5FA0A8BF
+P 5350 4100
+F 0 "U2" H 5350 4467 50  0000 C CNN
+F 1 "TLC277" H 5350 4376 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W10.16mm_LongPads" H 5350 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlc272.pdf" H 5350 4100 50  0001 C CNN
+	1    5350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:TLC277 U2
+U 3 1 5FA0C0B9
+P 5000 5250
+F 0 "U2" H 4958 5296 50  0000 L CNN
+F 1 "TLC277" H 4958 5205 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W10.16mm_LongPads" H 5000 5250 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tlc272.pdf" H 5000 5250 50  0001 C CNN
+	3    5000 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R3
+U 1 1 5FA0D8CC
+P 4700 4000
+F 0 "R3" V 4495 4000 50  0000 C CNN
+F 1 "R_US" V 4586 4000 50  0000 C CNN
+F 2 "" V 4740 3990 50  0001 C CNN
+F 3 "~" H 4700 4000 50  0001 C CNN
+	1    4700 4000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4850 4000 5000 4000
+$Comp
+L power:GND #PWR03
+U 1 1 5FA113F2
+P 4550 4000
+F 0 "#PWR03" H 4550 3750 50  0001 C CNN
+F 1 "GND" H 4555 3827 50  0000 C CNN
+F 2 "" H 4550 4000 50  0001 C CNN
+F 3 "" H 4550 4000 50  0001 C CNN
+	1    4550 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3600 4300 3600
+Wire Wire Line
+	4300 3600 4300 4200
+Wire Wire Line
+	4300 4200 5050 4200
+$Comp
+L Device:R_US R4
+U 1 1 5FA1F048
+P 5350 3450
+F 0 "R4" V 5145 3450 50  0000 C CNN
+F 1 "R_US" V 5236 3450 50  0000 C CNN
+F 2 "" V 5390 3440 50  0001 C CNN
+F 3 "~" H 5350 3450 50  0001 C CNN
+	1    5350 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5200 3450 5000 3450
+Wire Wire Line
+	5000 3450 5000 4000
+Connection ~ 5000 4000
+Wire Wire Line
+	5000 4000 5050 4000
+Wire Wire Line
+	5500 3450 5950 3450
+Wire Wire Line
+	5950 3450 5950 4100
+Wire Wire Line
+	5950 4100 5650 4100
+$Comp
+L Device:R_US R1
+U 1 1 5FA22CBA
+P 2550 3200
+F 0 "R1" H 2618 3246 50  0000 L CNN
+F 1 "R_US" H 2618 3155 50  0000 L CNN
+F 2 "" V 2590 3190 50  0001 C CNN
+F 3 "~" H 2550 3200 50  0001 C CNN
+	1    2550 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 5FA23268
+P 3550 3200
+F 0 "R2" H 3618 3246 50  0000 L CNN
+F 1 "R_US" H 3618 3155 50  0000 L CNN
+F 2 "" V 3590 3190 50  0001 C CNN
+F 3 "~" H 3550 3200 50  0001 C CNN
+	1    3550 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 3050 3050 3050
+Wire Wire Line
+	3550 3350 3550 3600
+$Comp
+L power:GND #PWR02
+U 1 1 5FA25EF7
+P 3100 4450
+F 0 "#PWR02" H 3100 4200 50  0001 C CNN
+F 1 "GND" H 3105 4277 50  0000 C CNN
+F 2 "" H 3100 4450 50  0001 C CNN
+F 3 "" H 3100 4450 50  0001 C CNN
+	1    3100 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 5FA26D31
+P 3050 3050
+F 0 "#PWR01" H 3050 2900 50  0001 C CNN
+F 1 "+5V" H 3065 3223 50  0000 C CNN
+F 2 "" H 3050 3050 50  0001 C CNN
+F 3 "" H 3050 3050 50  0001 C CNN
+	1    3050 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 3050 3050
+Wire Wire Line
+	3050 3050 3550 3050
+$Comp
+L power:+5V #PWR04
+U 1 1 5FA2CECF
+P 4900 4950
+F 0 "#PWR04" H 4900 4800 50  0001 C CNN
+F 1 "+5V" H 4915 5123 50  0000 C CNN
+F 2 "" H 4900 4950 50  0001 C CNN
+F 3 "" H 4900 4950 50  0001 C CNN
+	1    4900 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 5FA2D4AE
+P 4900 5550
+F 0 "#PWR05" H 4900 5300 50  0001 C CNN
+F 1 "GND" H 4905 5377 50  0000 C CNN
+F 2 "" H 4900 5550 50  0001 C CNN
+F 3 "" H 4900 5550 50  0001 C CNN
+	1    4900 5550
+	1    0    0    -1  
+$EndComp
+Text GLabel 5950 4100 2    50   Output ~ 0
+Vout
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 5FA30DCC
+P 8200 4600
+F 0 "J1" H 8280 4642 50  0000 L CNN
+F 1 "Conn_01x03" H 8280 4551 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8200 4600 50  0001 C CNN
+F 3 "~" H 8200 4600 50  0001 C CNN
+	1    8200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR07
+U 1 1 5FA314A6
+P 7850 4200
+F 0 "#PWR07" H 7850 4050 50  0001 C CNN
+F 1 "+5V" H 7865 4373 50  0000 C CNN
+F 2 "" H 7850 4200 50  0001 C CNN
+F 3 "" H 7850 4200 50  0001 C CNN
+	1    7850 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 4500 7850 4500
+Wire Wire Line
+	7850 4500 7850 4350
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5FA32561
+P 7850 4350
+F 0 "#FLG02" H 7850 4425 50  0001 C CNN
+F 1 "PWR_FLAG" V 7850 4478 50  0000 L CNN
+F 2 "" H 7850 4350 50  0001 C CNN
+F 3 "~" H 7850 4350 50  0001 C CNN
+	1    7850 4350
+	0    1    1    0   
+$EndComp
+Connection ~ 7850 4350
+Wire Wire Line
+	7850 4350 7850 4200
+$Comp
+L power:GND #PWR06
+U 1 1 5FA32E69
+P 7550 4200
+F 0 "#PWR06" H 7550 3950 50  0001 C CNN
+F 1 "GND" H 7555 4027 50  0000 C CNN
+F 2 "" H 7550 4200 50  0001 C CNN
+F 3 "" H 7550 4200 50  0001 C CNN
+	1    7550 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8000 4600 7550 4600
+Wire Wire Line
+	7550 4600 7550 4350
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5FA33BE5
+P 7550 4350
+F 0 "#FLG01" H 7550 4425 50  0001 C CNN
+F 1 "PWR_FLAG" V 7550 4477 50  0000 L CNN
+F 2 "" H 7550 4350 50  0001 C CNN
+F 3 "~" H 7550 4350 50  0001 C CNN
+	1    7550 4350
+	0    -1   -1   0   
+$EndComp
+Connection ~ 7550 4350
+Wire Wire Line
+	7550 4350 7550 4200
+Text GLabel 8000 4700 0    50   Output ~ 0
+Vout
+$Comp
+L dk_Optical-Sensors-Reflective-Analog-Output:QRD1114 U1
+U 1 1 5FA50BE8
+P 3050 4150
+F 0 "U1" H 3050 4497 60  0000 C CNN
+F 1 "QRD1114" H 3050 4391 60  0000 C CNN
+F 2 "digikey-footprints:Reflective_Sensor_QRD1114" H 3250 4350 60  0001 L CNN
+F 3 "https://www.onsemi.com/pub/Collateral/QRD1114-D.pdf" H 3250 4450 60  0001 L CNN
+F 4 "QRD1114-ND" H 3250 4550 60  0001 L CNN "Digi-Key_PN"
+F 5 "QRD1114" H 3250 4650 60  0001 L CNN "MPN"
+F 6 "Sensors, Transducers" H 3250 4750 60  0001 L CNN "Category"
+F 7 "Optical Sensors - Reflective - Analog Output" H 3250 4850 60  0001 L CNN "Family"
+F 8 "https://www.onsemi.com/pub/Collateral/QRD1114-D.pdf" H 3250 4950 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/on-semiconductor/QRD1114/QRD1114-ND/187536" H 3250 5050 60  0001 L CNN "DK_Detail_Page"
+F 10 "SENSR OPTO TRANS 1.27MM REFL PCB" H 3250 5150 60  0001 L CNN "Description"
+F 11 "ON Semiconductor" H 3250 5250 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3250 5350 60  0001 L CNN "Status"
+	1    3050 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 4050 2750 4050
+Wire Wire Line
+	2550 3350 2550 4050
+Wire Wire Line
+	2750 4250 2750 4450
+Wire Wire Line
+	2750 4450 3100 4450
+Wire Wire Line
+	3350 4450 3350 4250
+Wire Wire Line
+	3350 4050 3350 3600
+Wire Wire Line
+	3350 3600 3550 3600
+Connection ~ 3550 3600
+Connection ~ 3100 4450
+Wire Wire Line
+	3100 4450 3350 4450
+$EndSCHEMATC
