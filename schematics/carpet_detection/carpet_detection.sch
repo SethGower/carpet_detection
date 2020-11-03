@@ -174,7 +174,7 @@ U 1 1 5FA3D132
 P 4850 3550
 F 0 "RV1" V 4645 3550 50  0000 C CNN
 F 1 "R_POT_US" V 4736 3550 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3005_Horizontal" H 4850 3550 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3006P_Horizontal" H 4850 3550 50  0001 C CNN
 F 3 "~" H 4850 3550 50  0001 C CNN
 	1    4850 3550
 	0    1    1    0   
@@ -266,17 +266,6 @@ Connection ~ 3050 3050
 Wire Wire Line
 	3050 3050 3550 3050
 $Comp
-L Device:LED D2
-U 1 1 5FA49F7E
-P 5800 4600
-F 0 "D2" V 5839 4482 50  0000 R CNN
-F 1 "Green" V 5748 4482 50  0000 R CNN
-F 2 "LED_THT:LED_D4.0mm" H 5800 4600 50  0001 C CNN
-F 3 "~" H 5800 4600 50  0001 C CNN
-	1    5800 4600
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:LED D1
 U 1 1 5FA4A774
 P 5800 3450
@@ -299,17 +288,6 @@ F 3 "" H 5800 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR0106
-U 1 1 5FA50AB0
-P 5800 4750
-F 0 "#PWR0106" H 5800 4500 50  0001 C CNN
-F 1 "GND" H 5805 4577 50  0000 C CNN
-F 2 "" H 5800 4750 50  0001 C CNN
-F 3 "" H 5800 4750 50  0001 C CNN
-	1    5800 4750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R_US R3
 U 1 1 5FA650D5
 P 5800 3850
@@ -324,19 +302,6 @@ Wire Wire Line
 	5800 3600 5800 3700
 Wire Wire Line
 	5650 4100 5800 4100
-$Comp
-L Device:R_US R4
-U 1 1 5FA74CC5
-P 5800 4300
-F 0 "R4" H 5868 4346 50  0000 L CNN
-F 1 "1k" H 5868 4255 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 5840 4290 50  0001 C CNN
-F 3 "~" H 5800 4300 50  0001 C CNN
-	1    5800 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5800 4150 5800 4100
 Connection ~ 5800 4100
 Wire Wire Line
 	5800 4100 5950 4100
