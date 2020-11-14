@@ -16,7 +16,7 @@ Part was designed using KiCAD.
 
 ### PCB
 Front | Back
-:-----:-----:
+:-----:|:-----:
 ![](images/pcb-front.png) | ![](images/pcb-back.png)
 
 3D View
