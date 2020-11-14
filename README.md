@@ -10,4 +10,15 @@ the LED, lighting up the LED (red).
 
 Part was designed using KiCAD.
 
+## Hardware
+### Schematic
+![KiCAD Schematic](images/schematic.png)
+
+### PCB
+Front | Back
+:-----:-----:
+![](images/pcb-front.png) | ![](images/pcb-back.png)
+
+3D View
+![](images/pcb-3d.png)
 Idea inspired by a suggestion from Louis Beato
